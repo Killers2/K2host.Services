@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\K2host.Core\K2host.Core.csproj" />
+    <ProjectReference Include="..\K2host.Data\K2host.Data.csproj" />
+    <ProjectReference Include="..\K2host.Os\K2host.Os.csproj" />
+    <ProjectReference Include="..\K2host.Threading\K2host.Threading.csproj" />
+  </ItemGroup>
+
+</Project>
