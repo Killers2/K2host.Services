@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Tony N. Hyde</Authors>
+    <Company>K2host.co.uk</Company>
+    <Description>A Library for service based functions and engines.</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Killers2/K2host.Services</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Killers2/K2host.Services</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageIcon>Icon128.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>K2host, Services, Windows Service</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +21,17 @@
     <ProjectReference Include="..\K2host.Data\K2host.Data.csproj" />
     <ProjectReference Include="..\K2host.Os\K2host.Os.csproj" />
     <ProjectReference Include="..\K2host.Threading\K2host.Threading.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\K2host.Pictures\Icon128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
