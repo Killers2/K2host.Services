@@ -14,6 +14,7 @@
     <PackageIconUrl />
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>K2host, Services, Windows Service</PackageTags>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>

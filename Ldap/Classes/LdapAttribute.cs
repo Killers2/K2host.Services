@@ -176,7 +176,6 @@ namespace K2host.Services.Ldap.Classes
                 }
             }
 
-            // todo add rest if needed
             return Encoding.UTF8.GetString(Value, 0, Value.Length);
         }
 

@@ -25,8 +25,6 @@ namespace K2host.Services.Ldap.Classes
             ChildAttributes.Add(new LdapAttribute(UniversalDataType.Enumerated, (byte)result));
             ChildAttributes.Add(new LdapAttribute(UniversalDataType.OctetString, matchedDN));
             ChildAttributes.Add(new LdapAttribute(UniversalDataType.OctetString, diagnosticMessage));
-            // todo add referral if needed
-            // todo bindresponse can contain more child attributes...
         }
     }
 
